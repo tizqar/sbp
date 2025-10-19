@@ -1,0 +1,19 @@
+# Ignoriši velike CSV fajlove
+csv_final_fixed/
+credit_card_transactions_with_provider.csv
+
+# Ignoriši Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignoriši IDE fajlove  
+.vscode/
+.idea/
+
+# Ignoriši log fajlove
+*.log
+
+# Ignoriši privremene fajlove
+*.tmp
+*.temp
