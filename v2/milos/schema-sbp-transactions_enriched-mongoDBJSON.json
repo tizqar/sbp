@@ -1,0 +1,101 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "amount_num",
+      "amt",
+      "card_provider",
+      "category",
+      "credit_card_id",
+      "hour",
+      "is_fraud",
+      "is_fraud_num",
+      "is_night",
+      "merchant_id",
+      "schema_version",
+      "time_period",
+      "trans_date_trans_time",
+      "trans_num",
+      "transaction_channel",
+      "transaction_year",
+      "unix_time",
+      "user_age",
+      "user_age_group",
+      "user_gender",
+      "user_id",
+      "user_job"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "string"
+      },
+      "amount_num": {
+        "bsonType": "double"
+      },
+      "amt": {
+        "bsonType": "double"
+      },
+      "card_provider": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string"
+      },
+      "credit_card_id": {
+        "bsonType": "string"
+      },
+      "hour": {
+        "bsonType": "int"
+      },
+      "is_fraud": {
+        "bsonType": "int"
+      },
+      "is_fraud_num": {
+        "bsonType": "int"
+      },
+      "is_night": {
+        "bsonType": "int"
+      },
+      "merchant_id": {
+        "bsonType": "string"
+      },
+      "schema_version": {
+        "bsonType": "int"
+      },
+      "time_period": {
+        "bsonType": "string"
+      },
+      "trans_date_trans_time": {
+        "bsonType": "string"
+      },
+      "trans_num": {
+        "bsonType": "string"
+      },
+      "transaction_channel": {
+        "bsonType": "string"
+      },
+      "transaction_year": {
+        "bsonType": "int"
+      },
+      "unix_time": {
+        "bsonType": "int"
+      },
+      "user_age": {
+        "bsonType": "int"
+      },
+      "user_age_group": {
+        "bsonType": "string"
+      },
+      "user_gender": {
+        "bsonType": "string"
+      },
+      "user_id": {
+        "bsonType": "string"
+      },
+      "user_job": {
+        "bsonType": "string"
+      }
+    }
+  }
+}
