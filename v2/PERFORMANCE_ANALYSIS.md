@@ -56,14 +56,6 @@ Kolekcija `transactions_enriched` je kreirana korišćenjem MongoDB Design Patte
 - Fraud-specifična polja: `is_night`, `time_period`
 - Omogućeno direktno filtriranje bez runtime parsiranja timestamp-a
 
-**4. Polymorphic Pattern**
-- Fleksibilna šema koja podržava opcionalna polja
-- Omogućava buduća proširenja bez migracije
-
-**5. Schema Versioning Pattern**
-- Dodato `schema_version: 2` polje
-- Omogućava sigurnu evoluciju šeme i backward kompatibilnost
-
 ### Faza 2: Strategija Indeksiranja
 
 Kreirano 6 targetiranih indeksa na `transactions_enriched`:
