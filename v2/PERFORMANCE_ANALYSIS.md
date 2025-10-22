@@ -54,7 +54,7 @@ Kolekcija `transactions_enriched` je kreirana korišćenjem MongoDB Design Patte
 **3. Attribute Pattern**
 - Dodati specijalizovani atributi za specifične query paterne
 - Fraud-specifična polja: `is_night`, `time_period`
-- Omogućeno direktno filtriranje bez runtime parsiranja timestamp-a
+- Omogućeno direktno filtriranje 
 
 ### Faza 2: Strategija Indeksiranja
 
