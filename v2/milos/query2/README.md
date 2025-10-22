@@ -6,8 +6,6 @@ Prikazuje 10 gradova u USA sa najvećim brojem prevarantskih transakcija. Za sva
 
 ## Rezultati
 
-![Query 2 Results](output.png)
-
 - vreme izvršavanja 1.3s
 
 

@@ -12,9 +12,9 @@ Odgovara na pitanje: Ko su najčešće žrtve i da li su prevare češće noću?
 
 ## Rezultati
 
-![Query 5 Results](output.png)
+![Query 5 Results](output.jpg)
 
-![Performace](erformace.png)
+![Performace](erformace.jpg)
 
 **Zaključak:** 
 - Top žrtve imaju 60-90 prevara svaka

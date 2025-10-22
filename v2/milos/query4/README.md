@@ -10,11 +10,11 @@ Odgovara na pitanje: Ko su najčešće žrtve i gde se prevare dešavaju?
 
 ## Rezultati
 
-![Query 4 Results Part 1](output1.png)
+![Query 4 Results Part 1](output1.jpg)
 
-![Query 4 Results Part 2](output2.png)
+![Query 4 Results Part 2](output2.jpg)
 
-![Performace](performance.png)
+![Performace](performance.jpg)
 
 
 ## MongoDB Kod

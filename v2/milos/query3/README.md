@@ -11,9 +11,9 @@ Prikazuje top 20 kombinacija sa najviše prevara.
 
 ## Rezultati
 
-![Query 3 Results](output.png)
+![Query 3 Results](output.jpg)
 
-![Performace](performance.png)
+![Performace](performace.jpg)
 
 
 **Zaključak:** 
