@@ -1,10 +1,3 @@
-# 10 Gradova sa Najviše Prevara
-
-Identifikuj 10 gradova sa najvećim brojem prevarantskih transakcija.
-
-## MongoDB Upit
-
-```javascript
 db.transactions.aggregate([
   {
     $lookup: {
@@ -70,21 +63,3 @@ db.transactions.aggregate([
   
   {$limit: 10}
 ])
-```
-
-## Rezultati
-
-Upit prikazuje top 10 gradova sa najviše prevarantskih transakcija, uključujući:
-- Ukupan broj transakcija po gradu
-- Broj prevarantskih transakcija
-- Dužina trajanja upita ~157 sekundi
-- Iskorišćeni svi dokumenti(1296675)
-
-
-### Geografska Distribucija
-![Geographic Hotspots](city.jpg)
-
-![performance](performance.jpg)
----
-
-*Miloš - Oktobar 2025*

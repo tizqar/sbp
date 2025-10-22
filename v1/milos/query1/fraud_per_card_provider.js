@@ -1,11 +1,4 @@
-# Analiza Prevara po Brendu Kartice
-
-Za svaku vrstu kartice (Visa, MasterCard, AmEx, Discover), izračunaj procenat prevarantskih transakcija.
-
-## MongoDB Upit
-
-```javascript
-db.transactions.aggregate([
+[
   {
     $lookup: {
       from: "credit_cards",
@@ -43,19 +36,4 @@ db.transactions.aggregate([
   },
   
   {$sort: {fraud_percentage: -1}}
-])
-```
-
-## Rezultati
-
-Upit prikazuje koji provideri kartica imaju najviši procenat prevarantskih transakcija, sortirano od najrizičnijeg ka najsigurnijem.
-Dužina trajanja upita ~59 sekundi
-Iskorišćeni svi dokumenti(1296675)
-
-### Analiza po Card Providerima
-![Provider Analysis](output.jpg)
-
-![performance](performance.jpg)
----
-
-*Miloš - Oktobar 2025*
+]

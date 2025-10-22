@@ -1,10 +1,4 @@
-# Učestalost Prevara po Demografiji
-
-Koje starosne grupe imaju najveću učestalost prevara, grupisano po kategorijama trgovaca i polu korisnika?
-
-## MongoDB Upit
-
-```javascript
+// Učestalost prevara po starosnim grupama, kategorijama i polu
 db.transactions.aggregate([
   {
     $lookup: {
@@ -95,18 +89,3 @@ db.transactions.aggregate([
   
   {$limit: 20}
 ])
-```
-
-## Rezultati
-
-- Upit prikazuje top 20 kombinacija starosnih grupa, kategorija trgovaca pola sa najvećim procentom prevara.
-- Trajanje: ~122
-- Dokumenti : svi, vraćeno 20
-
-### Demografska Analiza
-![Demographic Fraud Analysis](age.jpg)
-
-![performance](performance.jpg)
----
-
-*Miloš - Oktobar 2025*
