@@ -1,0 +1,49 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "amt",
+      "category",
+      "credit_card_id",
+      "is_fraud",
+      "merchant_id",
+      "trans_date_trans_time",
+      "trans_num",
+      "transaction_channel",
+      "unix_time"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "string"
+      },
+      "amt": {
+        "bsonType": "double"
+      },
+      "category": {
+        "bsonType": "string"
+      },
+      "credit_card_id": {
+        "bsonType": "string"
+      },
+      "is_fraud": {
+        "bsonType": "int"
+      },
+      "merchant_id": {
+        "bsonType": "string"
+      },
+      "trans_date_trans_time": {
+        "bsonType": "string"
+      },
+      "trans_num": {
+        "bsonType": "string"
+      },
+      "transaction_channel": {
+        "bsonType": "string"
+      },
+      "unix_time": {
+        "bsonType": "int"
+      }
+    }
+  }
+}

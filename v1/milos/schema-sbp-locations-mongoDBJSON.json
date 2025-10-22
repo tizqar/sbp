@@ -1,0 +1,41 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "city",
+      "city_pop",
+      "lat",
+      "long",
+      "state",
+      "street",
+      "zip"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "string"
+      },
+      "city": {
+        "bsonType": "string"
+      },
+      "city_pop": {
+        "bsonType": "int"
+      },
+      "lat": {
+        "bsonType": "double"
+      },
+      "long": {
+        "bsonType": "double"
+      },
+      "state": {
+        "bsonType": "string"
+      },
+      "street": {
+        "bsonType": "string"
+      },
+      "zip": {
+        "bsonType": "int"
+      }
+    }
+  }
+}

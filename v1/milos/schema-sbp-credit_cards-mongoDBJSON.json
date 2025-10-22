@@ -1,0 +1,25 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "card_provider",
+      "cc_num",
+      "user_id"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "string"
+      },
+      "card_provider": {
+        "bsonType": "string"
+      },
+      "cc_num": {
+        "bsonType": "long"
+      },
+      "user_id": {
+        "bsonType": "string"
+      }
+    }
+  }
+}

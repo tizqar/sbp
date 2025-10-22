@@ -1,0 +1,25 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "merch_lat",
+      "merch_long",
+      "merchant"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "string"
+      },
+      "merch_lat": {
+        "bsonType": "double"
+      },
+      "merch_long": {
+        "bsonType": "double"
+      },
+      "merchant": {
+        "bsonType": "string"
+      }
+    }
+  }
+}
